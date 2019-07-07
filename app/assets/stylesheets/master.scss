@@ -81,3 +81,22 @@ h2 {
 .about {
 	font-family: 'nobilemedium_italic';
 }
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+.modal {
+	font-family: 'nobileregular';
+}
+
+h2 span {
+	color: #80807B;
+	font-family: 'nobileregular', sans-serif;
+}
+
+::selection {
+	background-color: #E51E09;
+}
